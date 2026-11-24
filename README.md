@@ -1,6 +1,6 @@
 # rPPG Deepfake Detector
 
-This beginner-friendly project looks for a pulse in a face video. Each heartbeat causes tiny changes in skin color that a camera can record. The program measures average red, green, and blue values from the forehead and cheeks, then uses the POS method to emphasize pulse-like changes.
+The program measures average red, green, and blue values from the forehead and cheeks, then uses the POS method to emphasize pulse-like changes.
 
 It summarizes those signals and trains a small machine-learning model to distinguish the real and fake videos in your own dataset. A prediction is an estimate, not proof: it depends on the quality and variety of the videos used for training.
 
